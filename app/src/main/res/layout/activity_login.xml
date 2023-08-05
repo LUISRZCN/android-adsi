@@ -22,28 +22,20 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo_gamerspeak_transformed_removebg_preview" />
+
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="INICIO DE SESIÓN"
-                android:textSize="20sp" />
-
-            <EditText
-                android:id="@+id/etUsername"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:hint="Nombre"
-                android:textSize="20sp" />
-
-            <EditText
-                android:id="@+id/etNickname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:hint="Apodo"
+                android:textColor="#020202"
                 android:textSize="20sp" />
 
             <EditText
@@ -52,6 +44,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="Correo Electrónico"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Contraseña"
                 android:textSize="20sp" />
 
             <Button
@@ -66,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Registrarse"
-                android:textColor="#20910D"
+                android:textColor="#A8161C"
                 android:textSize="16sp" />
         </LinearLayout>
 
